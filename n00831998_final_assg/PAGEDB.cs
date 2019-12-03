@@ -70,7 +70,7 @@ namespace n00831998_final_assg
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("Something went wrong!");
+                Debug.WriteLine("Something went wrong in the page list_query method!");
                 Debug.WriteLine(ex.ToString());
 
             }
@@ -109,7 +109,7 @@ namespace n00831998_final_assg
 
                     
 
-                    //Look at each column in the result set row, add both the column name and the column value to our Student dictionary
+                    //print each column name and value to the debug console
                     for (int i = 0; i < resultset.FieldCount; i++)
                     {
                         Debug.WriteLine("Attempting to transfer data of " + resultset.GetName(i));
@@ -184,7 +184,7 @@ namespace n00831998_final_assg
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("Something went wrong in the find Author method!");
+                Debug.WriteLine("Something went wrong in the add page method!");
                 Debug.WriteLine(ex.ToString());
             }
 
@@ -214,7 +214,7 @@ namespace n00831998_final_assg
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("Something went wrong in the find Author method!");
+                Debug.WriteLine("Something went wrong in the update page method!");
                 Debug.WriteLine(ex.ToString());
             }
 

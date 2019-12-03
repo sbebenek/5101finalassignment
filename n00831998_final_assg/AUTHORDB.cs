@@ -68,7 +68,7 @@ namespace n00831998_final_assg
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("Something went wrong!");
+                Debug.WriteLine("Something went wrong in authors list_query!");
                 Debug.WriteLine(ex.ToString());
 
             }
@@ -183,7 +183,7 @@ namespace n00831998_final_assg
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("Something went wrong in the find Author method!");
+                Debug.WriteLine("Something went wrong in the add author method!");
                 Debug.WriteLine(ex.ToString());
             }
 
@@ -215,7 +215,7 @@ namespace n00831998_final_assg
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("Something went wrong in the find Author method!");
+                Debug.WriteLine("Something went wrong in the update Author method!");
                 Debug.WriteLine(ex.ToString());
             }
 
